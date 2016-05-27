@@ -28,7 +28,7 @@ Instructions
 3. Open command prompt and change directory to the local path of the stored project (``` cd "C:\your_path_to_project" ```)
 4. Run Main.py through the command ``` "C:\your_path_to_python27_library\python.exe" Main.py ``` 
 
-![cmd_image]()
+![cmd_image](https://raw.githubusercontent.com/MKLab-ITI/prophet/master/images/cmd.PNG)
 
 Documentation
 --------------
