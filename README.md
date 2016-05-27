@@ -1,4 +1,6 @@
-# PROPheT Ontology Populator
+![prophet logo]( http://mklab.iti.gr/prophet/_static/logo.png "PROPheT logo" ) 
+
+# PROPheT Ontology Populator 
 
 Description
 -------------
