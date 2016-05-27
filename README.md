@@ -17,6 +17,19 @@ PROPheT offers the following key features:
 * Elimination of redundancy in the instance set by handling duplicates.
 * User-friendly GUI with enriched display of content and information, as well as useful function utilities for the user. 
 
+Requirements
+---------------
+PROPheT tool is written in Python 2.7.
+
+Instructions
+--------------
+1. Install Python 2.7 in your computer.
+2. Clone the project locally in your computer.
+3. Open command prompt and change directory to the local path of the stored project (``` cd "C:\your_path_to_project" ```)
+4. Run Main.py through the command ``` "C:\your_path_to_python27_library\python.exe" Main.py ``` 
+
+![cmd_image]()
+
 Documentation
 --------------
 The official documentation of PROPheT is [here](http://mklab.iti.gr/prophet/).
