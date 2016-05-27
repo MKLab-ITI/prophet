@@ -30,6 +30,7 @@ Instructions
 
 ![cmd_image](https://raw.githubusercontent.com/MKLab-ITI/prophet/master/images/cmd.PNG)
 
+
 Documentation
 --------------
 The official documentation of PROPheT is [here](http://mklab.iti.gr/prophet/).
