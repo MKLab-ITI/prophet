@@ -1,7 +1,5 @@
 ![prophet logo]( http://mklab.iti.gr/prophet/_static/logo.png "PROPheT logo" ) 
 
-# PROPheT Ontology Populator 
-
 Description
 -------------
 PROPheT is a novel application that enables **instance extraction** and **ontology population** from Linked Data, using a user-friendly graphical user interface (GUI). In PROPheT, concepts, i.e. realisations of entities, and relations populated in online Linked Data sources (such as *DBPedia*) can be located, filtered and inserted into a user’s own domain ontology. 
