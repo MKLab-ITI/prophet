@@ -28,7 +28,7 @@ Instructions
 3. Open command prompt and change directory to the local path of the stored project (``` cd "C:\your_path_to_project" ```)
 4. Run Main.py through the command ``` "C:\your_path_to_python27_library\python.exe" Main.py ``` 
 
-![cmd_image](https://raw.githubusercontent.com/MKLab-ITI/prophet/master/images/cmd.PNG)
+   ![cmd_image](https://raw.githubusercontent.com/MKLab-ITI/prophet/master/images/cmd.PNG)
 
 
 Documentation
@@ -39,4 +39,4 @@ Credits
 -------------
 PROPheT was created by [MKLab group](http://mklab.iti.gr/) under the scope of [PERICLES](http://pericles-project.eu/) FP7 Research Project.
 
-![prophet logo](http://mklab.iti.gr/prophet/_static/logo.png) ![mklab logo](http://mklab.iti.gr/prophet/_static/mklab_logo.png) ![pericles logo](http://mklab.iti.gr/prophet/_static/pericles_logo.png)
+![prophet logo](http://mklab.iti.gr/prophet/_static/logo.png)  ![mklab logo](http://mklab.iti.gr/prophet/_static/mklab_logo.png)  ![pericles logo](http://mklab.iti.gr/prophet/_static/pericles_logo.png)
