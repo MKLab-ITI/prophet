@@ -25,4 +25,4 @@ Credits
 -------------
 PROPheT was created by [MKLab group](http://mklab.iti.gr/) under the scope of [PERICLES](http://pericles-project.eu/) FP7 Research Project.
 
-![prophet logo]( http://mklab.iti.gr/prophet/_static/logo.png "PROPheT logo" ) ![mklab logo]( http://mklab.iti.gr/prophet/_static/mklab_logo.png "MKLab logo" ) ![pericles logo]( http://mklab.iti.gr/prophet/_static/pericles_logo.png "PERICLES logo" )
+![prophet logo](http://mklab.iti.gr/prophet/_static/logo.png) ![mklab logo](http://mklab.iti.gr/prophet/_static/mklab_logo.png) ![pericles logo](http://mklab.iti.gr/prophet/_static/pericles_logo.png)
