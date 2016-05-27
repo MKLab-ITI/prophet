@@ -1,0 +1,25 @@
+<RCC>
+  <qresource>
+    <file>images/value.png</file>
+    <file>images/annotation.png</file>
+    <file>images/class.png</file>
+    <file>images/instance.png</file>
+    <file>images/property.png</file>
+    <file>images/PROPheT Logo - Widget background.png</file>
+    <file>images/database.png</file>
+    <file>images/PROPheT Logo.png</file>
+    <file>images/search_by_existing_instance.png</file>
+    <file>images/search_by_instance_label.png</file>
+    <file>images/export_graph.png</file>
+    <file>images/enirch_instance.png</file>
+    <file>images/search_by_class.png</file>
+    <file>images/search_by_instance.png</file>
+    <file>images/preferences.png</file>
+    <file>images/namespaces.png</file>
+    <file>images/about.png</file>
+    <file>images/endpoint.png</file>
+    <file>images/load_model.png</file>
+    <file>images/log.png</file>
+    <file>images/mapping.png</file>
+  </qresource>
+</RCC>

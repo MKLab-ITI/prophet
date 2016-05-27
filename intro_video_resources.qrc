@@ -1,0 +1,8 @@
+<RCC>
+  <qresource>
+    <file>images/fullscreen.png</file>
+    <file>images/pause.png</file>
+    <file>images/play.png</file>
+    <file>images/PROPheT Logo.png</file>
+  </qresource>
+</RCC>
