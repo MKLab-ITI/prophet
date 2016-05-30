@@ -2,7 +2,7 @@
 
 Description
 -------------
-PROPheT (PeRicles Ontology Population Tool) is a novel application that enables **instance extraction** and **ontology population** from Linked Data, using a user-friendly graphical user interface (GUI). In PROPheT, concepts, i.e. realisations of entities, and relations populated in online Linked Data sources (such as *DBPedia*) can be located, filtered and inserted into a user’s own domain ontology. 
+PROPheT (PeRicles Ontology Population Tool) is a novel application that enables **instance extraction** and **ontology population** from Linked Data, using a user-friendly graphical user interface (GUI). In PROPheT, concepts, i.e. realisations of entities, and relations populated in online Linked Data sources (such as <a href="http://wiki.dbpedia.org/">DBPedia</a>) can be located, filtered and inserted into a user’s own domain ontology. 
 
 PROPheT offers **three** types of instance extraction-related functionalities (*instance-based populating*, *class-based populating* and *instance enrichment*) along with **user-driven mapping** of data properties. It is flexible enough to work with any domain ontology (written in OWL) and any RDF Linked Data set that is available via a SPARQL endpoint. 
 
