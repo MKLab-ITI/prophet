@@ -42,13 +42,13 @@ from modules.SearchByInstanceLabelWizard import Ui_WizardSearchByInstanceLabel
 from modules.About import Ui_DialogAbout
 from modules.UpdatesDownloader import Ui_UpdatesDownloader
 
-import main_window_resources_rc
-import preferences_resources_rc
-import search_by_class_wizard_resources_rc
-import search_by_existing_instance_wizard_resources_rc
-import search_by_instance_label_wizard_resources_rc
-import enrich_instance_wizard_resources_rc
-import messagebox_resources_rc
+import modules.main_window_resources_rc
+import modules.preferences_resources_rc
+import modules.search_by_class_wizard_resources_rc
+import modules.search_by_existing_instance_wizard_resources_rc
+import modules.search_by_instance_label_wizard_resources_rc
+import modules.enrich_instance_wizard_resources_rc
+import modules.messagebox_resources_rc
 
 
 class Main(QtGui.QMainWindow):
