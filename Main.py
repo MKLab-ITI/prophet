@@ -30,17 +30,17 @@ from shutil import copyfile
 from subprocess import Popen
 from os import remove, path
 
-from MainWindow import Ui_MainWindow
-from AddEndpoint import Ui_AddEndpoint
-from AddNamespace import Ui_AddNamespace
-from AddMyModel import Ui_AddMyModel
-from Preferences import Ui_Preferences
-from SearchByClassWizard import Ui_WizardSearchByClassName
-from SearchByInstanceWizard import Ui_WizardSearchByInstanceName
-from EnrichInstanceWizard import Ui_WizardEnrichInstance
-from SearchByInstanceLabelWizard import Ui_WizardSearchByInstanceLabel
-from About import Ui_DialogAbout
-from UpdatesDownloader import Ui_UpdatesDownloader
+from modules.MainWindow import Ui_MainWindow
+from modules.AddEndpoint import Ui_AddEndpoint
+from modules.AddNamespace import Ui_AddNamespace
+from modules.AddMyModel import Ui_AddMyModel
+from modules.Preferences import Ui_Preferences
+from modules.SearchByClassWizard import Ui_WizardSearchByClassName
+from modules.SearchByInstanceWizard import Ui_WizardSearchByInstanceName
+from modules.EnrichInstanceWizard import Ui_WizardEnrichInstance
+from modules.SearchByInstanceLabelWizard import Ui_WizardSearchByInstanceLabel
+from modules.About import Ui_DialogAbout
+from modules.UpdatesDownloader import Ui_UpdatesDownloader
 
 import main_window_resources_rc
 import preferences_resources_rc
