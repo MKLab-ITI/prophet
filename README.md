@@ -2,7 +2,7 @@
 
 Description
 -------------
-PROPheT (PeRicles Ontology Population Tool) is a novel application that enables **instance extraction** and **ontology population** from Linked Data, using a user-friendly graphical user interface (GUI). In PROPheT, concepts, i.e. realisations of entities, and relations populated in online Linked Data sources (such as <a href="http://wiki.dbpedia.org/">DBPedia</a>) can be located, filtered and inserted into a user’s own domain ontology. 
+PROPheT (PeRicles Ontology Population Tool) is a novel application that enables **instance extraction** and **ontology population** from Linked Data, using a user-friendly graphical user interface (GUI). In PROPheT, concepts, i.e. realisations of entities, and relations populated in online Linked Data sources (such as <a href="http://wiki.dbpedia.org/" target="_blank">DBPedia</a>) can be located, filtered and inserted into a user’s own domain ontology. 
 
 PROPheT offers **three** types of instance extraction-related functionalities (*instance-based populating*, *class-based populating* and *instance enrichment*) along with **user-driven mapping** of data properties. It is flexible enough to work with any domain ontology (written in OWL) and any RDF Linked Data set that is available via a SPARQL endpoint. 
 
@@ -39,6 +39,6 @@ The official documentation of PROPheT is [here](http://mklab.iti.gr/prophet/).
 
 Credits
 -------------
-PROPheT was created by [MKLab group](http://mklab.iti.gr/) under the scope of [PERICLES](http://pericles-project.eu/) FP7 Research Project.
+PROPheT was created by <a href="http://mklab.iti.gr/" target="_blank">MKLab group</a> under the scope of <a href="http://pericles-project.eu/" target="_blank">PERICLES</a> FP7 Research Project.
 
 ![prophet logo](http://mklab.iti.gr/prophet/_static/logo.png)  ![mklab logo](http://mklab.iti.gr/prophet/_static/mklab_logo.png)  ![pericles logo](http://mklab.iti.gr/prophet/_static/pericles_logo.png)
