@@ -1,5 +1,16 @@
 # -*- coding: utf-8 -*-
 
+"""
+This file is part of the PROPheT tool.
+Copyright (C) 2016: MKLab <pmitzias@iti.gr; mriga@iti.gr; skontopo@iti.gr>
+http://mklab.iti.gr/project/prophet-ontology-populator
+https://github.com/MKLab-ITI/prophet
+Licensed under the Apache License, Version 2.0 (the "License").
+You may use this file in compliance with the License. 
+For more details, see LICENCE file. 
+"""
+
+
 # Form implementation generated from reading ui file 'ui\MessageBox.ui'
 #
 # Created by: PyQt4 UI code generator 4.11.4
