@@ -19,7 +19,7 @@ PROPheT offers the following key features:
 
 Requirements
 ---------------
-PROPheT tool is written in Python 2.7.
+PROPheT tool is written in [Python 2.7](https://www.python.org/download/releases/2.7/).
 
 Instructions
 --------------
