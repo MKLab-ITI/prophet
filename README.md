@@ -20,7 +20,7 @@ PROPheT offers the following key features:
 Requirements
 ---------------
 PROPheT tool is implemented in [Python 2.7](https://www.python.org/download/releases/2.7/) along with [PyQt4](http://pyqt.sourceforge.net/Docs/PyQt4/installation.html) (v4.11 or later).
-All specialized external Python libraries ([rdflib](http://rdflib.readthedocs.io/en/stable/gettingstarted.html), [SPARQLWrapper](https://rdflib.github.io/sparqlwrapper/), and [isodate](https://pypi.python.org/pypi/isodate)) that were used, are also provided in the current github repository. 
+All specialized external Python libraries ([rdflib](http://rdflib.readthedocs.io/en/stable/gettingstarted.html), [SPARQLWrapper](https://rdflib.github.io/sparqlwrapper/), and [isodate](https://pypi.python.org/pypi/isodate)) that were used through the development process of PROPheT, are also provided in the current github repository. 
 
 Instructions
 --------------
