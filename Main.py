@@ -382,13 +382,16 @@ class Main(QtGui.QMainWindow):
                     instance_level.addChild(property_level)
 
                 # Get sameAs values and add them to tree
-                allSameAsValues = Functions.getSameAsValueForInstanceFromGraph(my_graph, instance)
+                # allSameAsValues = Functions.getSameAsValueForInstanceFromGraph(my_graph, instance)
+                allSameAsValues = Functions.getSameAsSeeAlsoValueForInstanceFromGraph(my_graph, instance) # result is a list of ['predicate', 'instance']
 
                 for sameAsValue in allSameAsValues:
                     property_level = QTreeWidgetItem()
-                    property_x = Functions.getPhraseWithPrefix('http://www.w3.org/2002/07/owl#sameAs')
-                    value_x = Functions.getPhraseWithPrefix(sameAsValue)
-                    #property_level.setText(0, "Property: " + property_x + " Value: " + value_x)
+                    # property_x = Functions.getPhraseWithPrefix('http://www.w3.org/2002/07/owl#sameAs')
+                    property_x = Functions.getPhraseWithPrefix(sameAsValue[0])
+                    # value_x = Functions.getPhraseWithPrefix(sameAsValue)
+                    value_x = Functions.getPhraseWithPrefix(sameAsValue[1])
+                    # property_level.setText(0, "Property: " + property_x + " Value: " + value_x)
                     property_level.setText(0, property_x)
                     property_level.setText(1, value_x)
                     property_level.setToolTip(0, "<b>Property:</b><br> " + property_x + " <br><b>Value:</b><br> " + value_x)
@@ -2015,13 +2018,16 @@ class SearchByInstanceName(QtGui.QWizard):
 
                     instance_level.addChild(property_level)
 
-                allSameAsValues = Functions.getSameAsValueForInstanceFromGraph(my_graph, instance)
+                # allSameAsValues = Functions.getSameAsValueForInstanceFromGraph(my_graph, instance)
+                allSameAsValues = Functions.getSameAsSeeAlsoValueForInstanceFromGraph(my_graph, instance) # result is a list of ['predicate', 'instance']
 
                 for sameAsValue in allSameAsValues:
 
                     property_level = QTreeWidgetItem()
-                    property_x = Functions.getPhraseWithPrefix('http://www.w3.org/2002/07/owl#sameAs')
-                    value_x = Functions.getPhraseWithPrefix(sameAsValue)
+                    # property_x = Functions.getPhraseWithPrefix('http://www.w3.org/2002/07/owl#sameAs')
+                    property_x = Functions.getPhraseWithPrefix(sameAsValue[0])
+                    # value_x = Functions.getPhraseWithPrefix(sameAsValue)
+                    value_x = Functions.getPhraseWithPrefix(sameAsValue[1])
                     property_level.setText(0, property_x)
                     property_level.setText(1, value_x)
                     property_level.setFlags(QtCore.Qt.ItemFlags(0))
@@ -3053,13 +3059,16 @@ class EnrichInstance(QtGui.QWizard):
 
                     instance_level.addChild(property_level)
 
-                allSameAsValues = Functions.getSameAsValueForInstanceFromGraph(my_graph, instance)
+                # allSameAsValues = Functions.getSameAsValueForInstanceFromGraph(my_graph, instance)
+                allSameAsValues = Functions.getSameAsSeeAlsoValueForInstanceFromGraph(my_graph, instance) # result is a list of ['predicate', 'instance']
 
                 for sameAsValue in allSameAsValues:
 
                     property_level = QTreeWidgetItem()
-                    property_x = Functions.getPhraseWithPrefix('http://www.w3.org/2002/07/owl#sameAs')
-                    value_x = Functions.getPhraseWithPrefix(sameAsValue)
+                    # property_x = Functions.getPhraseWithPrefix('http://www.w3.org/2002/07/owl#sameAs')
+                    property_x = Functions.getPhraseWithPrefix(sameAsValue[0])
+                    # value_x = Functions.getPhraseWithPrefix(sameAsValue)
+                    value_x = Functions.getPhraseWithPrefix(sameAsValue[1])
                     property_level.setText(0, property_x)
                     property_level.setText(1, value_x)
                     property_level.setFlags(QtCore.Qt.ItemFlags(0))
