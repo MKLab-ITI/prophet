@@ -799,6 +799,25 @@ def getSameAsValueForInstanceFromGraph(my_graph, my_instance):
 
     return [result[0] for result in qres.result]
 
+def getSameAsSeeAlsoValueForInstanceFromGraph(my_graph, my_instance):
+
+    properties = []
+
+    query = "SELECT DISTINCT ?instance ?predicate " \
+            "WHERE " \
+            "{" \
+                "{<" + my_instance + "> ?predicate ?instance } " \
+            "UNION " \
+                "{?instance ?predicate <" + my_instance + ">}. " \
+            "FILTER (?predicate = owl:sameAs || ?predicate = rdfs:seeAlso)" \
+            "}"
+
+    qres = executeSPARQLSelectToGraph(my_graph, query)
+
+    for result in qres:
+        properties.append([result[1], result[0]])
+    return properties
+
 def addAnInstanceToTreeWidgetSummary(instance_x, tree_owner):
     # Initialize new parent for QTree
     instance_level = QTreeWidgetItem()
