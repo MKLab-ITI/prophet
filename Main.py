@@ -840,7 +840,7 @@ class PreferencesDialog(QtGui.QDialog):
             # Show message box with error
             QtGui.QMessageBox.critical(self, 'Error', "This endpoint is currently in use.\nCould not be deleted.", QtGui.QMessageBox.Close)
             return
-        # Or is DBPedia
+        # Or is DBpedia
         elif endpointUrl == 'http://dbpedia.org/sparql':
             # Show message box with error
             QtGui.QMessageBox.critical(self, 'Error', "This endpoint cannot be deleted.", QtGui.QMessageBox.Close)
@@ -858,7 +858,7 @@ class PreferencesDialog(QtGui.QDialog):
         selected_name = self.ui.tableWidgetKnownEndpoints.item(self.ui.tableWidgetKnownEndpoints.currentRow(), 0).text()
 
         # If the right-clicked name is the current name, editing should not be allowed
-        if selected_name == Functions.getEndpointName() or selected_name == 'DBPedia':
+        if selected_name == Functions.getEndpointName() or selected_name == 'DBpedia':
             return
 
         self.ui.tableWidgetKnownEndpoints.editItem(self.ui.tableWidgetKnownEndpoints.currentItem())
@@ -868,7 +868,7 @@ class PreferencesDialog(QtGui.QDialog):
             selected_name = self.ui.tableWidgetKnownEndpoints.item(self.ui.tableWidgetKnownEndpoints.currentRow(), 0).text()
             current_endpoint = Functions.getEndpointName()
 
-            if selected_name == 'DBPedia' or selected_name == current_endpoint:
+            if selected_name == 'DBpedia' or selected_name == current_endpoint:
                 self.ui.btnDeleteEndpoint.setEnabled(False)
             else:
                 self.ui.btnDeleteEndpoint.setEnabled(True)
@@ -1279,7 +1279,7 @@ class PreferencesDialog(QtGui.QDialog):
             copyfile(fileNameAndPath, 'database/myDB.sqlite')
             QtGui.QMessageBox.information(self, 'Success', "Selected database was successfully imported.", QtGui.QMessageBox.Close)
 
-            # Set selected endpoint DBPedia
+            # Set selected endpoint DBpedia
             Functions.setSettingToDB('endpoint_url', 'http://dbpedia.org/sparql')
 
             #Log
@@ -1294,7 +1294,7 @@ class PreferencesDialog(QtGui.QDialog):
 
         if reply == QtGui.QMessageBox.Yes:
 
-            # Set selected endpoint DBPedia
+            # Set selected endpoint DBpedia
             Functions.setSettingToDB('endpoint_url', 'http://dbpedia.org/sparql')
 
             # Copy default database
@@ -1399,7 +1399,7 @@ class PreferencesDialog(QtGui.QDialog):
             edit_action.setFont(QtGui.QFont("Segoe UI", -1, QtGui.QFont.Bold, False))
 
             # If the right-clicked name is the current name, editing should not be allowed
-            if selected_name == Functions.getEndpointName() or selected_name == 'DBPedia':
+            if selected_name == Functions.getEndpointName() or selected_name == 'DBpedia':
                 edit_action.setEnabled(False)
 
             # Add a separator
@@ -1417,7 +1417,7 @@ class PreferencesDialog(QtGui.QDialog):
             edit_action.setFont(QtGui.QFont("Segoe UI", -1, QtGui.QFont.Bold, False))
 
             # If the right-clicked name is the current name, editing should not be allowed
-            if selected_url == Functions.getEndpointURL() or selected_name == 'DBPedia':
+            if selected_url == Functions.getEndpointURL() or selected_name == 'DBpedia':
                 edit_action.setEnabled(False)
                 delete_action.setEnabled(False)
 
