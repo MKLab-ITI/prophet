@@ -1,4 +1,4 @@
-#PROPheT Ontology Populator
+# PROPheT Ontology Populator
 
 Description
 -------------
